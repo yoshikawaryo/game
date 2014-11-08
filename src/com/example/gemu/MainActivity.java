@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 				public void run() {
 					Log.d("timer", "called");
 
-					for (int i = 0; i < 28; i++) {
+					for (int i = 0; i < 40; i++) {
 						if (jyoutai[i] == 1) {
 							money += 6;
 						}
